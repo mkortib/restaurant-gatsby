@@ -7,11 +7,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 //import './bootstrap.min.css'
 
-const IndexPage = () => (
+const MenuPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    
+    <h3>This is Menu page</h3>
   </Layout>
 )
 
-export default IndexPage
+export default MenuPage
